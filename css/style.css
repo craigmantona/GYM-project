@@ -1,3 +1,152 @@
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.hero-container {
+    height: 100vh;
+
+    background: url('../images/boxing-ring.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.hours-container {
+    background-color: blueviolet;
+
+}
+
+.hour-container {
+    margin: 10px;
+    background-color: whitesmoke;
+    color: #007bff;
+    border-radius: 20px;
+}
+
+.map-container {
+    margin: 10px;
+    background-color: whitesmoke;
+    color: #007bff;
+    border-radius: 20px;
+}
+
+.about-container {
+    background-color: brown;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+    color: tomato;
+}
+
+.jumbotron-header {
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/*Jumbotron*/
+
+/*Header*/
+
+.header p {
+    text-align: center; 
+    text-decoration-color: dimgrey;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+/*Header*/
+
+/*Button*/
+
+.btn-primary:hover {
+    background-color: #06488e;
+    border-color: #06488e;
+}
+
+.btn-success:hover {
+    background-color: #255716 ;
+    border-color: #255716;
+}
+
+/*Button*/
+
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bolder;
+    color: tomato;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/*Navbar*/
+
+.new-price-alert {
+    color: tomato;
+    padding: 0;
+    background-color: #ffdb68;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.alert-warning {
+    border-color: #343a40;
+}
+
+/*Opening Hours*/
+
+
+/*map*/
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }

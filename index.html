@@ -12,8 +12,11 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -32,35 +35,40 @@
 
     <!--Header-->
 
-    <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="navalert-container container-fluid">
+        <nav class="navbar navbar-dark  navbar-expand-sm">
 
-        <a class="nav-link active navbar-brand" href="/">GYM</a>
+            <a class="nav-link active navbar-brand" href="/">GYM</a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span></button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="/prices">Prices</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/classes">Classes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link d-block d-sm-none" href="/login">Sign Up / Login</a>
-                </li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-1"><i>The better you starts here!</i></p>
-            <a href="/login">Sign Up / Login</a>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/prices">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/classes">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-block d-sm-none" href="/login">Sign Up / Login</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-1"><i>The better you starts here!</i></p>
+                <a href="/login" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#loginModal"> Login
+                </a>
+                <a href="/signup" class="btn btn-success btn-sm" data-toggle="modal" data-target="#signUpModal"> Sign Up
+                </a>
+            </div>
+        </nav>
+    </div>
 
     <!--/.Header-->
 
@@ -70,74 +78,142 @@
 
     <!--Hero-Login-->
 
-    <article class="container text-center  mt-3">
+    <div class="container-fluid hero-container">
 
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>New Pricing!</strong> New year, cheaper prices! <a href="/prices">See the new prices
-                        here!</a>
+        <article class="container-fluid text-center  mt-4">
+
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="alert alert-warning new-price-alert">
+                        <strong>New Pricing!</strong> New year, cheaper prices! <a href="/prices">See the new prices
+                            here!</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <section class="header jumbotron">
-            <h1>The best GYM for you!</h1>
 
-            <p>Already joined GYM, great!</p>
-            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login here</button>
+            <section class="header jumbotron">
+                <h1 class="jumbotron-header">The best GYM for you!</h1>
 
-            <p>Not a member yet? No problem!</p>
-            <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up now!</button>
+                <p>Already joined GYM, great!</p>
+                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#loginModal">Login here</button>
 
-        </section>
+                <p>Not a member yet? No problem!</p>
+                <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign up
+                    now!</button>
 
-    </article>
+            </section>
+
+        </article>
+
+    </div>
 
     <!--/.Hero-Login-->
 
-    <hr>
+    <!-- <hr> -->
 
     <!--Hours-Map-->
-
-    <div class="container col-12 col-sm-6 col-md-4 col-lg-3 text-center my-4">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <h2 class="text-uppercase"><i class="far fa-clock d-none d-sm-inline"></i> Opening Hours</h2>
-                <p>Times of opening</p>
+            <div class="col hour-container text-center">
+                <h2 class="text-uppercase d-none d-sm-block"><i class="fa fa-calendar" aria-hidden="true"></i> Opening Hours</h2>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Monday</th>
+                            <th scope="col">06:30 - 22:00 </th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Tuesday</th>
+                            <th scope="col">06:30 - 22:00 </th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Wednesday</th>
+                            <th scope="col">06:30 - 22:00 </th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Thursday</th>
+                            <th scope="col">06:30 - 23:00 </th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Friday</th>
+                            <th scope="col">06:30 - 23:00 </th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Saturday</th>
+                            <th scope="col">05:30 - 23:00 </th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Sunday</th>
+                            <th scope="col">05:30 - 16:00 </th>
+                        </tr>
+                    </thead>
+                </table>
             </div>
 
-            <!-- insert image instead of icons? -->
 
-
-            <div class="col">
-                <h2 class="text-uppercase "><i class="fas fa-map-marked-alt d-none d-sm-inline"></i> Map</h2>
+            <div class="col  map-container text-center">
+                <h2 class="text-uppercase d-none d-sm-block"><i class="fa fa-map-marker" aria-hidden="true"></i> Map</h2>
                 <p>How to find us</p>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.6657402759815!2d-0.2818063848337869!3d51.55602801496848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761181d57a876d%3A0xa64f9f185de8e097!2sWembley%20Stadium!5e0!3m2!1sen!2suk!4v1612533260384!5m2!1sen!2suk"
+                 width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">enter address here</iframe>
+                 </div>
+                 <a href="https://www.google.com/maps/place/Wembley+Stadium/@51.556028,-0.2818064,17z/data=!3m1!4b1!4m5!3m4!1s0x48761181d57a876d:0xa64f9f185de8e097!8m2!3d51.5560247!4d-0.2796177" target="_blank">Wemberley Stadium GYM, London</a>
             </div>
         </div>
     </div>
 
+    <!-- <div class="container-fluid hours-container">
+
+        <div class="container hour-container col-12 col-sm-6 col-md-4 col-lg-3 text-center my-4">
+            <div class="row">
+                <div class="col col-sm-6">
+                    <h2 class="text-uppercase d-none d-sm-block"><img src="images/calender.jpg"
+                            class="rounded-circle mr-3" height=100 width=100> Opening Hours</h2>
+                    <p>Times of opening</p>
+                </div>
+
+                <!-- insert image instead of icons? -->
+
+
+    <!-- <div class="col  col-sm-6 map-container">
+                    <h2 class="text-uppercase d-none d-sm-block"><img src="images/map.png" class="rounded-circle mr-3"
+                            height=100 width=100> Map</h2>
+                    <p>How to find us</p>
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+
     <!--/.Hours-Map-->
 
-    <hr>
+    <!-- <hr> -->
 
     <!--About-Us-->
 
-    <article class="container text-center my-4">
+    <div class="container about-container">
 
-        <section class="header">
-            <h2 class="text-uppercase"><i class="fas fa-users d-none d-sm-inline"></i> About us</h2>
-            <p>Brief description of gym</p>
-        </section>
+        <article class="container text-center my-4">
 
-    </article>
+            <section class="header">
+                <h2 class="text-uppercase d-none d-sm-block"><img src="images/about-us.png" class="rounded-circle mr-3"
+                        height=100 width=100> About us</h2>
+                <p>Brief description of gym</p>
+            </section>
+
+        </article>
+
+    </div>
 
     <!--/.About-Us-->
 
-    <hr>
+    <!-- <hr> -->
 
 
     <!--Footer-->
+
 
     Enter conatct link and socil links here
 
@@ -190,7 +266,8 @@
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
                                 else.</small>
                         </div>
                         <div class="form-group">
@@ -202,7 +279,7 @@
                             <label for="repeatPassword">Repeat Password</label>
                             <input type="password" class="form-control" id="repeatPassword"
                                 placeholder="Repeat Password">
-                                <small id="emailHelp" class="form-text text-muted">Repeat your password here.</small>
+                            <small id="emailHelp" class="form-text text-muted">Repeat your password here.</small>
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
