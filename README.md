@@ -4,3 +4,6 @@ Clock image - Image by <a href="https://pixabay.com/users/memed_nurrohmad-330764
 Map image - Image by <a href="https://pixabay.com/users/mmi9-1424200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">mmi9</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">Pixabay</a>
 About us image - Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3180368">mohamed Hassan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3180368">Pixabay</a>
 Hero image - Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867327">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867327">Pixabay</a>
+
+
+Map code found on following help site - https://blog.duda.co/responsive-google-maps-for-your-website

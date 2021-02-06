@@ -1,5 +1,7 @@
 body {
     font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    
 }
 
 .hero-container {
@@ -18,28 +20,39 @@ body {
     position: relative;
 }
 
-.hours-container {
-    background-color: blueviolet;
-
-}
 
 .hour-container {
-    margin: 10px;
-    background-color: whitesmoke;
-    color: #007bff;
-    border-radius: 20px;
+    background-color: #f5f5f5;
+    color: tomato;
+    border-color: tomato;
 }
 
 .map-container {
-    margin: 10px;
-    background-color: whitesmoke;
-    color: #007bff;
-    border-radius: 20px;
+    background-color: tomato;
+    color: #f5f5f5;
+    border-color: #f5f5f5;
+}
+
+.map-container a {
+    font-size: x-large;
 }
 
 .about-container {
-    background-color: brown;
+    background-color: #f5f5f5;
+    color: tomato;
+    border-color: tomato;
 }
+
+.about-container p {
+    color: #343a40;
+}
+
+.footer-container {
+    font-size: medium;
+    background-color: tomato;
+    border-color: #f5f5f5;
+}
+
 
 /*Jumbotron*/
 
@@ -54,7 +67,12 @@ body {
     margin-bottom: 30px;
 }
 
-/*Jumbotron*/
+/*Content container*/
+
+.content-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 /*Header*/
 
@@ -77,6 +95,11 @@ body {
 .btn-success:hover {
     background-color: #255716 ;
     border-color: #255716;
+}
+
+.btn {
+    border-radius: 10px;
+    min-width: 100px;
 }
 
 /*Button*/
@@ -143,10 +166,26 @@ body {
     height:0;
 }
 
-.map-responsive iframe{
+.map-responsive iframe {
     left:0;
     top:0;
     height:100%;
     width:100%;
     position:absolute;
+}
+
+i {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: tomato;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    min-height: 120px;
+    margin: 0;
 }
