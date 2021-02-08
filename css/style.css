@@ -35,6 +35,7 @@ body {
 
 .map-container a {
     font-size: x-large;
+    color: whitesmoke;
 }
 
 .about-container {
@@ -188,4 +189,9 @@ footer {
     border-color: whitesmoke;
     min-height: 120px;
     margin: 0;
+    font-size: medium;
+}
+
+.social-links {
+    color: royalblue;
 }
