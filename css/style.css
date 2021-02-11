@@ -1,5 +1,6 @@
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Merriweather', serif;
+font-family: 'Sora', sans-serif;
     font-size: x-large;
     
 }
@@ -7,7 +8,7 @@ body {
 /* Containers */
 
 .hero-container {
-    height: 100vh;
+    height: 100%;
 
     background: url('../images/boxing-ring.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -20,6 +21,10 @@ body {
     justify-content: center;
 
     position: relative;
+
+    width: 100%;
+    padding: 0;
+    margin: o;
 }
 
 
@@ -33,19 +38,21 @@ body {
     background-color: tomato;
     color: #f5f5f5;
     border-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 3px grey;
 }
 
 .content-container {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .about-container {
     background-color: #f5f5f5;
-    color: tomato;
+    color: whitesmoke;
     border-color: tomato;
 
-    height: 80vh;
+    /* height: 80vh; */
 
     background: url('../images/gym.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -68,6 +75,10 @@ body {
     padding-right: 10px;
 }
 
+.about-container section {
+    background-color: rgb(51 50 49 / 90%);
+}
+
 .footer-container {
     font-size: medium;
     background-color: tomato;
@@ -75,12 +86,26 @@ body {
     padding-top: 30px;
 }
 
+.table-dark {
+    box-shadow: 4px 4px 5px 3px grey;
+}
+
+.map-responsive {
+    box-shadow: 4px 4px 5px 3px grey;
+}
+
+.abouts-container {
+    box-shadow: 4px 4px 5px 3px grey;
+}
+
 
 /* Jumbotron */
 
 .jumbotron {
-    background-color: transparent;
+    background-color: rgb(51 50 49 / 90%);
     color: tomato;
+    padding-top: 70px;
+    box-shadow: 4px 4px 5px 3px grey;
 }
 
 .jumbotron-header {
@@ -102,40 +127,33 @@ body {
 /* Button */
 
 .btn-primary:hover {
-    background-color: #06488e;
+    background-color: #95c0ee;
     border-color: #06488e;
 }
 
 .btn-success:hover {
-    background-color: #255716 ;
+    background-color: #91fa70 ;
     border-color: #255716;
 }
 
 .btn {
     border-radius: 10px;
-    min-width: 100px;
+    min-width: 75px;
 }
 
 /* Navbar */
 
 .navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
     padding-left: 0;
     padding-right: 0;
 }
 
 .navalert-container a {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .navbar {
-    margin-bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .7);
-    border: 0;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .navbar .navbar-toggler {
@@ -145,24 +163,19 @@ body {
 .navbar .navbar-brand {
     font-weight: bolder;
     color: tomato;
+    font-size: 27px;
 }
 
 .navbar .navbar-nav a {
     font-weight: bold;
 }
 
+
 /* Alert */
 
 .new-price-alert {
     color: tomato;
     padding: 0;
-    background-color: #ffdb68;
-
-    top: 60px; 
-    left: 0px; 
-    width: 100%;
-    z-index:9999; 
-    border-radius: 10px;
 }
 
 .alert-container .col-12 {
@@ -176,6 +189,12 @@ body {
     border-color: #343a40;
 }
 
+element.style {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+}
 
 /* Map */
 
@@ -199,22 +218,20 @@ body {
     color: whitesmoke;
 }
 
+.map-container a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
 .map-container p {
     padding-top: 30px;
 }
 
-/* Icons */
-
-i {
-    margin-bottom: 20px;
-    font-size: 30px;
-    line-height: 20px;
-}
 
 /* Footer */
 
 .footer {
-    background-color: tomato;
+    background-color: rgba(0, 0, 0, .8);
     color: whitesmoke;
     border-color: whitesmoke;
     min-height: 120px;
@@ -222,8 +239,11 @@ i {
     font-size: 20px;
 }
 
-.social-links {
-    color: royalblue;
+.social-links  i {
+    font-size: 35px;
 }
 
-
+a:hover {
+    text-decoration: none;
+    color: #95c0ee;
+}
