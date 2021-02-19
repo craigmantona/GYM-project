@@ -13,6 +13,11 @@
         crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Sora:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 
@@ -23,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 </head>
 
@@ -54,15 +59,19 @@
                     </li>
                     <li class="nav-item">
                         <!-- <a class="nav-link d-block d-sm-none" href="/login">Sign Up / Login</a> -->
-                        <a href="/login" class="btn btn-primary btn-sm  d-sm-none" data-toggle="modal" data-target="#loginModal"> Login </a>
-                        <a href="/signup" class="btn btn-success btn-sm  d-sm-none" data-toggle="modal" data-target="#signUpModal"> Sign Up  </a>
+                        <a href="/login" class="btn btn-primary btn-sm  d-sm-none" data-toggle="modal"
+                            data-target="#loginModal"> Login </a>
+                        <a href="/signup" class="btn btn-success btn-sm  d-sm-none" data-toggle="modal"
+                            data-target="#signUpModal"> Sign Up </a>
                     </li>
                 </ul>
             </div>
             <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-1"><i>The better you starts here!</i></p>
-                <a href="/login" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#loginModal"> Login </a>
-                <a href="/signup" class="btn btn-success btn-sm" data-toggle="modal" data-target="#signUpModal"> Sign Up  </a>
+                <!-- <p class="navbar-text my-auto mr-1"><i>The better you starts here!</i></p> -->
+                <a href="/login" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#loginModal"> Login
+                </a>
+                <a href="/signup" class="btn btn-success btn-sm" data-toggle="modal" data-target="#signUpModal"> Sign Up
+                </a>
             </div>
         </nav>
     </div>
@@ -70,6 +79,8 @@
     <!--/.Header-->
 
     <!-- <hr> -->
+
+
 
 
 
@@ -103,108 +114,169 @@
 
     <!-- <hr> -->
 
-    <!--Hours-Map-->
+    <!--Classes Equipment PT -->
 
-    <div class="container">
-  
-  <div class="row text-center">
-    
-    <div class="col">
-      Classes
-    </div>
-    
-
-    <div class="col">
-      Equipment
-    </div>
-
-    <div class="col">
-      Personal Training
-    </div>
-
-  </div>7uytgrf
-</div>
-
-<!-- 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md4 col-lg-6 hour-container text-center content-container">
-                <h2 class="text-uppercase  d-sm-block"><i class="fa fa-calendar d-sm-block" aria-hidden="true"></i>
-                    Opening
-                    Hours</h2>
-                <table class="table table-dark">
-                    <thead>
+
+        <div class="row text-center">
+
+            <div class="container-fluid text-center col-12 classes-container">
+                <h2 class="text-uppercase  d-sm-block"><i class="fa fa-running d-sm-block" aria-hidden="true"></i>
+                    Classes</h2>
+                <table class="table table-dark table-responsive classes">
+                    <tbody>
                         <tr>
-                            <th scope="col">Monday</th>
-                            <th scope="col">06:30 - 22:00 </th>
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                        data-target="#spinModal">Spin Class</button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                        data-target="#hiitModal">HIIT</button>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="col">Tuesday</th>
-                            <th scope="col">06:30 - 22:00 </th>
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <div class="container-fluid">
+                                        <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                            data-target="#circuitModal">Circuit Training</button>
+                                    </div>
+                            </td>
+
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                        data-target="#full-bodyModal">Full Body Fusion</button>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="col">Wednesday</th>
-                            <th scope="col">06:30 - 22:00 </th>
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                        data-target="#boxerciseModal">Boxercise</button>
+                                </div>
+
+                            </td>
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                        data-target="#yogaModal">Yoga</button>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <th scope="col">Thursday</th>
-                            <th scope="col">06:30 - 23:00 </th>
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                        data-target="#zumbaModal">Zumba</button>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="container-fluid modal-xl">
+                                    <button type="button" class="btn btn-classes btn-block" data-toggle="modal"
+                                        data-target="#kickModal">Kick Boxing</button>
+                                </div>
+                            </td>
                         </tr>
-                        <tr>
-                            <th scope="col">Friday</th>
-                            <th scope="col">06:30 - 23:00 </th>
-                        </tr>
-                        <tr>
-                            <th scope="col">Saturday</th>
-                            <th scope="col">05:30 - 23:00 </th>
-                        </tr>
-                        <tr>
-                            <th scope="col">Sunday</th>
-                            <th scope="col">05:30 - 16:00 </th>
-                        </tr>
-                    </thead>
                 </table>
-            </div>
 
-
-            <div class="col map-container text-center content-container">
-                <h2 class="text-uppercase d-sm-block"><i class="fa fa-map-marker d-sm-block" aria-hidden="true"></i> Map
-                </h2>
-
-                <div class="map-responsive">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.6657402759815!2d-0.2818063848337869!3d51.55602801496848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761181d57a876d%3A0xa64f9f185de8e097!2sWembley%20Stadium!5e0!3m2!1sen!2suk!4v1612533260384!5m2!1sen!2suk"
-                        width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0">enter address here</iframe>
+                <div class="container-fluid">
+                    <p> More classes added monthly. Call us to find out more. </p>
                 </div>
-                <p>How to find us</p>
-                <a href="https://www.google.com/maps/place/Wembley+Stadium/@51.556028,-0.2818064,17z/data=!3m1!4b1!4m5!3m4!1s0x48761181d57a876d:0xa64f9f185de8e097!8m2!3d51.5560247!4d-0.2796177"
-                    target="_blank">Wemberley Stadium <strong>GYM</strong>, London</a>
+                <div class="container-fluid">
+                    <p><a href="tel:0100-8009001" class="inline-block"> 0100-8009001</a></p>
+                </div>
             </div>
         </div>
-    </div> -->
+    </div>
+
+    <!-- Equipment -->
+
+    <div class="container-fluid">
+
+        <div class="row text-center">
+
+            <div class="container-fluid text-center col-12 equipment-container">
+                <h2 class="text-uppercase  d-sm-block"><i class="fa fa-swimmer d-sm-block"></i></i>
+                    Equipment</h2>
 
 
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="/assets/images/treadmill.jpg" class="card-img-top"
+                            alt="Image of gymnasium equipment at GYM.">
+                        <div class="card-body">
+                            <h3 class="card-title"><strong>Gymnasium</strong></h3>
+                            <p class="card-text">In the main gym you will find a whole host of gym equipment for
+                                every need.</p>
+                            <p class="card-text">We have 15 treadmills, 20 excercise bikes and 20 rowing machines -
+                                you should never
+                                have to wait to use any of these!</p>
+                            <p class="card-text">We also have extensive weight machines and free weights aplenty.
+                            </p>
+                            <p class="card-text">State of the art machinery arrives all of the time at
+                                <strong>GYM</strong>. Have you
+                                tried the newest Power rope station yet?</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/pool.jpg" class="card-img-top" alt="Image of swimming pool at GYM.">
+                        <div class="card-body">
+                            <h3 class="card-title"><strong>Swimming Pool</strong></h3>
+                            <p class="card-text">We have an olmpic sized swimming pool that was installed in 2020.
+                            </p>
+                            <p class="card-text">There is also a large suana and steam room for you to relax your
+                                aching muscles after a good
+                                workout.</p>
+                            <p class="card-text">A fully trained lifeguard is always on duty, and specialised
+                                trainers for all classes.</p>
 
-    <!--/.Hours-Map-->
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted small-print">Check with reception for class
+                                times.</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/images/boxing-ring.jpg" class="card-img-top"
+                            alt="Image of boxing equipment at GYM.">
+                        <div class="card-body">
+                            <h3 class="card-title"><strong>Boxing Center</strong></h3>
+                            <p class="card-text">Our dedicated Boxing Center has an official sized boxing ring that
+                                was installed in 2019.
+                            </p>
+                            <p class="card-text">There are also 10 speed bags, 25 skipping ropes and 12 free
+                                standing punch bags.</p>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- <hr> -->
+            </div>
+        </div>
+    </div>
 
-    <!--About-Us-->
+
+    <!--/. Equipment -->
 
     <div class="container-fluid about-container content-container">
 
         <article class="col-12 text-center">
 
-            <section class="header">
-                <h2 class="text-uppercase d-sm-block"><i class="fa fa-users d-sm-block" aria-hidden="true"></i> About us
+            <section class="header content-container abouts-container">
+                <h2 class="text-uppercase d-sm-block"><i class="fa fa-bicycle d-sm-block" aria-hidden="true"></i>
+                    Personal Training
                 </h2>
                 <p>
-                    GYM first opened its doors to the public in June 1981 and for the next 40 years has helped people
-                    get fitter and healthier.
-                    Our state of the art facilities that include running machines, excercise bikes, rowing machines, power
-                    ropes, boxing bags and lots of studios for classes of all varieties.
-                    We have many trained gym instructers to help you get fitter and healthier.
+                    We have three fully trained Personal Trainers who have years of experience who are here to help you
+                    achieve your perfect level of fitness.
+                    Our Personal Trainers will help you with your nutritional needs as well as physical.
+
                 </p>
             </section>
 
@@ -224,7 +296,7 @@
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Contact us</h5>
-                <i class="fa fa-phone-square d-none" aria-hidden=true"></i>
+                <i class="fa fa-phone-square d-none" aria-hidden="true"></i>
                 <span class="sr-only">Contact telephone number.</span>
                 <p><a href="tel:0100-8009001" class="inline-block"> 0100-8009001</a></p>
             </div>
@@ -270,7 +342,7 @@
     <!-- modal -->
 
     <div class="modal" tabindex="-1" role="dialog" id="loginModal">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Enter your GYM login here</h5>
@@ -300,7 +372,7 @@
     </div>
 
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Enter your email address here to join GYM!</h5>
@@ -335,6 +407,148 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="spinModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Spin Class</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of Spin Class </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="hiitModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">HIIT</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of HIIT </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="boxerciseModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Boxercise</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of Boxercise </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="full-bodyModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Full Body Excercise</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of Full Body Exercise </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="circuitModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Circuit training</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of Circuit Training </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="yogaModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Yoga</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of Yoga </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="zumbaModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Zumba</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of Zumba </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="kickModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Kick Boxing</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Description of Kick Boxing </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
 
     <!-- /.modal -->
 
