@@ -24,7 +24,7 @@ body {
 
     width: 100%;
     padding: 0;
-    margin: o;
+    margin: 0;
 }
 
 
@@ -32,6 +32,8 @@ body {
     background-color: #f5f5f5;
     color: tomato;
     border-color: tomato;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .map-container {
@@ -40,6 +42,7 @@ body {
     border-color: #f5f5f5;
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
+    border-radius: 15px;
 }
 
 .content-container {
@@ -271,7 +274,7 @@ a:hover {
     color: #f5f5f5;
     border-color: #f5f5f5;
     padding: 20px;
-    box-shadow: 4px 4px 5px 3px grey;
+    
 }
 
 .pt-container {
@@ -324,3 +327,29 @@ a:hover {
     background-color: #f5f5f5;
     color: #343a40;
 }
+
+/* Block dividers */
+
+.block-divider {
+    width: 35px;
+    height: 5px;
+    border: 0;
+    background-color: tomato;
+}
+
+/* Carousel */
+
+.carousel-item {
+    padding: 80px;
+    text-align: center;
+}
+
+.carousel-inner {
+    background-color: #343a40;
+    color: #f5f5f5;
+    border-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 3px grey;
+    border-radius: 15px;
+}
+
