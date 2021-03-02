@@ -19,3 +19,5 @@ Gym Instructer 4 (PT4) -Image by <a href="https://pixabay.com/users/publicdomain
 
 
 Map code found on following help site - https://blog.duda.co/responsive-google-maps-for-your-website
+
+Direct Twitter DM code found at - https://developer.twitter.com/en/docs/twitter-for-websites/direct-message-button 

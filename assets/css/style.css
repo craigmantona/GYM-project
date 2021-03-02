@@ -45,6 +45,41 @@ body {
     border-radius: 15px;
 }
 
+.contact-container {
+    background-color: #343a40;
+    color: #f5f5f5;
+    border-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.contact-tweet-container {
+    background-color: tomato;
+    color: #f5f5f5;
+    border-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 3px grey;
+    border-radius: 15px;
+}
+
+.contact-tel-container {
+    background-color: #f5f5f5;
+    color: tomato;
+    border-color: tomato;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 3px grey;
+}
+
+.contact-email-container {
+    background-color: #f5f5f5;
+    color: tomato;
+    border-color: tomato;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 3px grey;
+}
+
 .content-container {
     padding: 20px;
     border-radius: 15px;
@@ -353,3 +388,12 @@ a:hover {
     border-radius: 15px;
 }
 
+.card-text strong {
+    color: tomato;
+}
+
+/* Contact tabs */
+
+.contact-tweet-container i {
+    color: #f5f5f5;
+}
