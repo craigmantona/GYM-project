@@ -127,12 +127,51 @@ body {
     box-shadow: 4px 4px 5px 3px grey;
 }
 
-.map-responsive {
+.abouts-container {
     box-shadow: 4px 4px 5px 3px grey;
 }
 
-.abouts-container {
+.team-container {
+    background-color: tomato;
+    color: #f5f5f5;
+    border-color: #f5f5f5;
+    padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
+    border-radius: 15px;
+}
+
+.classes-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: tomato;
+    border-color: tomato;
+}
+
+.equipment-container {
+    background-color: tomato;
+    color: #f5f5f5;
+    border-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.pt-container {
+    background-color: #f5f5f5;
+    color: whitesmoke;
+    border-color: tomato;
+
+
+    background: url('../images/boxing-ring.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 
@@ -245,12 +284,14 @@ element.style {
 
 /* Map */
 
-.map-responsive{
+.map-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
+    box-shadow: 4px 4px 5px 3px grey;
 }
+
 
 .map-responsive iframe {
     left:0;
@@ -295,41 +336,6 @@ a:hover {
     color: #95c0ee;
 }
 
-/* Prices page */
-
-.classes-container {
-    padding: 20px;
-    background-color: #f5f5f5;
-    color: tomato;
-    border-color: tomato;
-}
-
-.equipment-container {
-    background-color: tomato;
-    color: #f5f5f5;
-    border-color: #f5f5f5;
-    padding: 20px;
-    
-}
-
-.pt-container {
-    background-color: #f5f5f5;
-    color: whitesmoke;
-    border-color: tomato;
-
-
-    background: url('../images/gym.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
 
 /* Modal */
 
@@ -396,4 +402,18 @@ a:hover {
 
 .contact-tweet-container i {
     color: #f5f5f5;
+}
+
+/* Modal */
+
+.modal-content h3 {
+    color: tomato;
+}
+
+.modal-times {
+    color: tomato;
+}
+
+.equipment-card h3 {
+    color: tomato;
 }

@@ -1,4 +1,14 @@
+# GYM - a site showing all of the benefits and features of our gym.
+
 This is my GYM website that I have made by using the skills and code from the course so far (Love running, CV, Whiskey Drop to mention a few.)
+
+https://github.com/craigmantona/GYM-project/blob/dac5df374a70223956a2e60c3fe0e81f48a449d6/assets/images/Web%20page%20screenshot.png
+
+This website has been made with an established gym in mind. I have tried to make a website that is easy to access, and that has similar visuals/colour themes throughout.
+I have visited several gym sites in my life and I have tried to encourporate all of the information that I considered to be vital. I have asked some friends and family for their input, and have added some extra features as a result of that interaction.
+
+<img src="/assets/images/Web-page-screenshot.png"/>
+
 
 Clock image - Image by <a href="https://pixabay.com/users/memed_nurrohmad-3307648/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Memed_Nurrohmad</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Pixabay</a>
 Map image - Image by <a href="https://pixabay.com/users/mmi9-1424200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">mmi9</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">Pixabay</a>
