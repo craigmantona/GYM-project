@@ -2,8 +2,6 @@
 
 This is my GYM website that I have made by using the skills and code from the course so far (Love running, CV, Whiskey Drop to mention a few.)
 
-https://github.com/craigmantona/GYM-project/blob/dac5df374a70223956a2e60c3fe0e81f48a449d6/assets/images/Web%20page%20screenshot.png
-
 This website has been made with an established gym in mind. I have tried to make a website that is easy to access, and that has similar visuals/colour themes throughout.
 I have visited several gym sites in my life and I have tried to encourporate all of the information that I considered to be vital. I have asked some friends and family for their input, and have added some extra features as a result of that interaction.
 
