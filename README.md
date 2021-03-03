@@ -5,8 +5,24 @@ This is my GYM website that I have made by using the skills and code from the co
 This website has been made with an established gym in mind. I have tried to make a website that is easy to access, and that has similar visuals/colour themes throughout.
 I have visited several gym sites in my life and I have tried to encourporate all of the information that I considered to be vital. I have asked some friends and family for their input, and have added some extra features as a result of that interaction.
 
-<img src="/assets/images/Web-page-screenshot.png"/>
+---
 
+<img src="/assets/images/GYM-wireframe.pdf">
+###Wireframe created before project started. Created on Balsamiq.
+
+---
+
+<img src="/assets/images/Web-page-screenshot.png"/>
+###A view of how the site looks over different media.
+
+---
+
+I got my wife to test the site as a 'new visitor'. Some styling ideas were put forward resulting in some font colour changes and a different look to the gym classes descriptions view.
+My mentor also looked through it when I was part way through and gave many tips and helpful input to make a neater site.
+
+---
+
+##Links aand Images
 
 Clock image - Image by <a href="https://pixabay.com/users/memed_nurrohmad-3307648/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Memed_Nurrohmad</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Pixabay</a>
 Map image - Image by <a href="https://pixabay.com/users/mmi9-1424200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">mmi9</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">Pixabay</a>
