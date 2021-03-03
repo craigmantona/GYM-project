@@ -7,17 +7,19 @@ I have visited several gym sites in my life and I have tried to encourporate all
 
 ---
 
-<img src="/assets/images/GYM-wireframe.png">
+<img src="/assets/images/GYM-wireframe.png" alt="Image of wireframe created before project started.">
 
-### Wireframe created before project started. Created on Balsamiq.
+#### Wireframe created before project started. Created on Balsamiq.
+
+---
+
+<img src="/assets/images/Web-page-screenshot.png" alt="Images of site on different media screens."/>
+
+#### A view of how the site looks over different media.
 
 ---
 
-<img src="/assets/images/Web-page-screenshot.png"/>
-
-### A view of how the site looks over different media.
-
----
+## Testing
 
 I got my wife to test the site as a 'new visitor'. Some styling ideas were put forward resulting in some font colour changes and a different look to the gym classes descriptions view.
 My mentor also looked through it when I was part way through and gave many tips and helpful input to make a neater site.
