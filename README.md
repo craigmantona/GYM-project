@@ -7,13 +7,15 @@ I have visited several gym sites in my life and I have tried to encourporate all
 
 ---
 
-<img src="/assets/images/GYM-wireframe.pdf">
-###Wireframe created before project started. Created on Balsamiq.
+<img src="/assets/images/GYM-wireframe.png">
+
+### Wireframe created before project started. Created on Balsamiq.
 
 ---
 
 <img src="/assets/images/Web-page-screenshot.png"/>
-###A view of how the site looks over different media.
+
+### A view of how the site looks over different media.
 
 ---
 
@@ -22,7 +24,7 @@ My mentor also looked through it when I was part way through and gave many tips 
 
 ---
 
-##Links aand Images
+## Links and Images
 
 Clock image - Image by <a href="https://pixabay.com/users/memed_nurrohmad-3307648/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Memed_Nurrohmad</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Pixabay</a>
 Map image - Image by <a href="https://pixabay.com/users/mmi9-1424200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">mmi9</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">Pixabay</a>
