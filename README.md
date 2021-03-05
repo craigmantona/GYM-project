@@ -1,4 +1,4 @@
-# GYM - a site showing all of the benefits and features of our gym.
+# GYM - my first milestone project - a site showing all of the benefits and features of our gym.
 
 This is my GYM website that I have made by using the skills and code from the course so far (Love running, CV, Whiskey Drop to mention a few.)
 
@@ -81,3 +81,7 @@ Gym Instructer 4 (PT4) -Image by <a href="https://pixabay.com/users/publicdomain
 Map code found on following help site - https://blog.duda.co/responsive-google-maps-for-your-website
 
 Direct Twitter DM code found at - https://developer.twitter.com/en/docs/twitter-for-websites/direct-message-button 
+
+
+
+(Deployment instructions used from GitHub help pages)
