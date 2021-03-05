@@ -7,6 +7,33 @@ I have visited several gym sites in my life and I have tried to encourporate all
 
 ---
 
+## Deployment
+
+This project was made using GitHub and GitPod.
+
+How to deploy this page to GitHub pages from the repository:
+
+1. Log in to GitHub
+2. Select the repository craigmantona/GYM-project
+3. Under the repository name, click  Settings.
+4. Under "GitHub Pages", use the None or Branch drop-down menu and select a publishing source.
+5. Optionally, use the drop-down menu to select a folder for your publishing source.
+6. Click Save.
+
+Alternatively tou can pull the code from the GitHub repository:
+
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the folder looking icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the folder looking icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the folder looking icon.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+
+---
+## Wireframe
+
 <img src="/assets/images/GYM-wireframe.png" alt="Image of wireframe created before project started.">
 
 #### Wireframe created before project started. Created on Balsamiq.
@@ -23,6 +50,11 @@ I have visited several gym sites in my life and I have tried to encourporate all
 
 I got my wife to test the site as a 'new visitor'. Some styling ideas were put forward resulting in some font colour changes and a different look to the gym classes descriptions view.
 My mentor also looked through it when I was part way through and gave many tips and helpful input to make a neater site.
+
+<img src="/assets/images/Lighthouse.png" alt="Images of performance from Lighthouse."/>
+
+#### Lighthouse report check.
+
 
 ---
 
