@@ -417,3 +417,11 @@ a:hover {
 .equipment-card h3 {
     color: tomato;
 }
+
+.enquiry-form {
+    background-color: #343a40;
+    color: tomato;
+    border-color: tomato;
+    border-radius: 15px;
+    padding: 20px;
+}

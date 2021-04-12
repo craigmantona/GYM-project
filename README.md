@@ -1,12 +1,15 @@
 # GYM - my first milestone project - a site showing all of the benefits and features of our gym.
-https://craigmantona.github.io/GYM-project/
-
+[Link to finished site](https://craigmantona.github.io/GYM-project/)
 
 This is my GYM website that I have made by using the skills and code from the course so far (Love running, CV, Whiskey Drop to mention a few.)
 
-This website has been made with an established gym in mind. I have tried to make a website that is easy to access, and that has similar visuals/colour themes throughout.
+This website has been made with an established gym in mind. I have tried to make a website that is easy to access, and that has similar visuals/colour themes throughout. It should be fully accessible on a range of devices and simple to navigate for new GYM users and regular members.
 I have visited several gym sites in my life and I have tried to encourporate all of the information that I considered to be vital. I have asked some friends and family for their input, and have added some extra features as a result of that interaction.
 
+
+<img src="/assets/images/Web-page-screenshot.png" alt="Images of site on different media screens."/>
+
+#### A view of how the site looks over different media.
 ---
 
 ## Deployment
@@ -39,12 +42,6 @@ Alternatively tou can pull the code from the GitHub repository:
 <img src="/assets/images/GYM-wireframe.png" alt="Image of wireframe created before project started.">
 
 #### Wireframe created before project started. Created on Balsamiq.
-
----
-
-<img src="/assets/images/Web-page-screenshot.png" alt="Images of site on different media screens."/>
-
-#### A view of how the site looks over different media.
 
 ---
 
