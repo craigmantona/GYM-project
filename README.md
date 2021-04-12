@@ -12,6 +12,26 @@ I have visited several gym sites in my life and I have tried to encourporate all
 #### A view of how the site looks over different media.
 ---
 
+## User Experience (UX) 
+
+* ### User stories
+    * First Time Visitor Goals
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the GYM.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site.
+        3. As a First Time Visitor, I want to know where they are located and how to contact the GYM.
+
+    * Returning Visitor Goals
+        1. As a Returning Visitor, I want to see what classes are on offer.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the GYM with any questions I may have.
+        3. As a Returning Visitor, I want to find social media links.
+
+    * Frequent User Goals
+        1. As a Frequent User, I want to  see what different classes are on and when.
+        2. As a Frequent User, I want to check to see if there are any new personal trainers that I can use.
+
+
+---
+
 ## Deployment
 
 This project was made using GitHub and GitPod.
