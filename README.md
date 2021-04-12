@@ -104,6 +104,67 @@ I have visited several gym sites in my life and I have tried to encourporate all
     * Balsamiq was used to create the wireframes during the design process.
 
 ---
+## Testing
+
+The Webformatter.com Markup Validator were used to validate every page of the project to ensure there were no syntax errors in the project for both HTML and CSS.
+
+* [HTML & CSS code checked through HTML/CSS Formatter](https://webformatter.com/html) No issues found
+
+### Testing User Stories from User Experience (UX) Section
+* First Time Visitor Goals
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the GYM.
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "New Prices" Call to action button.
+        2. The main points are made immediately with the hero image
+        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the GYM.
+
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        2. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+
+    3. As a First Time Visitor, I want to know where the GYM is located and the opening times. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+
+        1. Once the new visitor has read the Opening Hours text and seen the Location map, they will notice What classes we have to offer and when.
+        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+        4. The user can see all of the equipment that the GYM has to offer at the GYM.
+
+* Returning Visitor Goals
+    1. As a Returning Visitor, I want to find the new and existing classes that are on offer.
+
+        1. These are clearly shown in the Classes page.
+        2. They will also be able to see what equipment the GYM has to offer.
+
+    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+        1. The navigation bar clearly highlights the "Contact Us" Page.
+        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
+        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's telephone number.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+
+    3. As a Returning Visitor, I want to find the Facebook and Instagram link so that I can join and interact with others in the community.
+
+        1. The Facebook and Instagram pages can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+
+* Frequent User Goals
+    1. As a Frequent User, I want to check to see if there are any new Personal Trainers at the GYM.
+
+        1. The user would already be comfortable with the website layout and can easily navigate to the Team & Contact Us page.
+
+
+### Further Testing
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+* Testing was done to ensure that all pages were linking correctly.
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+On some mobile devices the videos of the Personal Trainers are seen as still images.
+
+---
+
 
 ## Deployment
 
