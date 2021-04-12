@@ -32,7 +32,7 @@ body {
     background-color: #343a40;
     color: tomato;
     border-color: tomato;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 20px;
 }
 
@@ -42,14 +42,14 @@ body {
     border-color: #f5f5f5;
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .contact-container {
     background-color: #343a40;
     color: #f5f5f5;
     border-color: #f5f5f5;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 20px;
 }
 
@@ -59,14 +59,14 @@ body {
     border-color: #f5f5f5;
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .contact-tel-container {
     background-color: #f5f5f5;
     color: tomato;
     border-color: tomato;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
 }
@@ -75,14 +75,13 @@ body {
     background-color: #f5f5f5;
     color: tomato;
     border-color: tomato;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
 }
 
 .content-container {
     padding: 20px;
-    border-radius: 15px;
 }
 
 .about-container {
@@ -137,7 +136,7 @@ body {
     border-color: #f5f5f5;
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .classes-container {
@@ -152,7 +151,7 @@ body {
     color: #f5f5f5;
     border-color: #f5f5f5;
     padding: 20px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .pt-container {
@@ -419,7 +418,7 @@ a:hover {
 }
 
 .enquiry-form {
-    background-color: #343a40;
+    background-color: #343a40e0;
     color: tomato;
     border-color: tomato;
     border-radius: 15px;
