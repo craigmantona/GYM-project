@@ -55,10 +55,53 @@ I have visited several gym sites in my life and I have tried to encourporate all
 
     (Images have been compressed in order for the site to load up quicker)
 
+    14. Map code found on following help site - <a href="https://blog.duda.co/responsive-google-maps-for-your-website"></a>
+    15. Direct Twitter DM code found at - <a href="https://developer.twitter.com/en/docs/twitter-for-websites/direct-message-button"></a>
+    16. Deployment instructions used from GitHub help pages
+    17. README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
+
+
 * ### Wireframes
     * Wireframe images of webpage, iPad and iPhone
 
     <img src="/assets/images/GYM-wireframe.png" alt="Image of wireframe created before project started.">
+
+#### Wireframe created before project started. Created on Balsamiq.
+---
+
+## Features
+
+* Responsive on all device sizes
+* Interactive elements
+
+---
+## Technologies Used
+
+### Languages Used
+* HTML5
+* CSS3
+
+### Frameworks, Libraries & Programs Used
+1. Bootstrap 4.4.1:
+    * Bootstrap was used to assist with the responsiveness and styling of the website.
+2. Hover.css:
+    * Hover.css was used on the Social Media in the footer and the buttons in all pages to add the float transition while being hovered over.
+3. Google Fonts:
+    * Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+4. Font Awesome:
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+5. jQuery:
+    * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+6. Git
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+7. GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+8. Pixabay:
+    * Pixabay was used for the images on the website.
+9. Pexels:
+    * Pexels was used for the videos on the website.
+10. Balsamiq:
+    * Balsamiq was used to create the wireframes during the design process.
 
 ---
 
@@ -87,11 +130,7 @@ Alternatively tou can pull the code from the GitHub repository:
 
 
 ---
-## Wireframe
 
-<img src="/assets/images/GYM-wireframe.png" alt="Image of wireframe created before project started.">
-
-#### Wireframe created before project started. Created on Balsamiq.
 
 ---
 
@@ -125,12 +164,3 @@ Gym Instructer 3 (PT3) - Image by <a href="https://pixabay.com/users/matanvizel-
 Gym Instructer 4 (PT4) -Image by <a href="https://pixabay.com/users/publicdomainpictures-14/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=18884">PublicDomainPictures</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=18884">Pixabay</a>
 
 
-
-
-Map code found on following help site - https://blog.duda.co/responsive-google-maps-for-your-website
-
-Direct Twitter DM code found at - https://developer.twitter.com/en/docs/twitter-for-websites/direct-message-button 
-
-
-
-(Deployment instructions used from GitHub help pages)
