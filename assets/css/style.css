@@ -45,37 +45,30 @@ body {
 
 .contact-container {
     background-color: #343a40;
-    color: #f5f5f5;
+    color: tomato;
     border-color: #f5f5f5;
-    /* border-radius: 15px; */
     padding: 20px;
 }
 
 .contact-tweet-container {
-    background-color: tomato;
+    background-color: #343a40;
     color: #f5f5f5;
     border-color: #f5f5f5;
     padding: 20px;
-    box-shadow: 4px 4px 5px 3px grey;
-    /* border-radius: 15px; */
 }
 
 .contact-tel-container {
-    background-color: #f5f5f5;
-    color: tomato;
+    background-color: #343a40;
+    color: #f5f5f5;
     border-color: tomato;
-    /* border-radius: 15px; */
     padding: 20px;
-    box-shadow: 4px 4px 5px 3px grey;
 }
 
 .contact-email-container {
-    background-color: #f5f5f5;
-    color: tomato;
+    background-color: #343a40;
+    color: #f5f5f5;
     border-color: tomato;
-    /* border-radius: 15px; */
     padding: 20px;
-    box-shadow: 4px 4px 5px 3px grey;
 }
 
 .content-container {
@@ -129,12 +122,11 @@ body {
 }
 
 .team-container {
-    background-color: tomato;
-    color: #f5f5f5;
+    background-color: #f5f5f5;
+    color: tomato;
     border-color: #f5f5f5;
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
-    /* border-radius: 15px; */
 }
 
 .classes-container {
@@ -157,7 +149,6 @@ body {
     color: tomato;
     border-color: #f5f5f5;
     padding: 20px;
-    /* border-radius: 15px; */
 }
 
 .pt-container {
@@ -424,9 +415,18 @@ a:hover {
 }
 
 .enquiry-form {
-    background-color: #343a40e0;
-    color: tomato;
-    border-color: tomato;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #343a40;
+    border-color: tomato;
+    margin-top: 20px;
+}
+
+.enquiry-form h2 {
+    color: tomato;
+}
+
+.enquiry-label {
+    text-align: left;
 }
