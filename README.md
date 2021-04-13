@@ -102,6 +102,8 @@ I have visited several gym sites in my life and I have tried to encourporate all
     * Pexels was used for the videos on the website.
 10. Balsamiq:
     * Balsamiq was used to create the wireframes during the design process.
+11. Tinypng:
+    * Tinypng was used to reduce size of images.
 
 ---
 ## Testing
@@ -156,9 +158,14 @@ The Webformatter.com Markup Validator were used to validate every page of the pr
 
 ### Further Testing
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone8, iPad Pro & iPhone11.
 * Testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* I got my wife, brother and a friend to test the site as a 'new visitor'. Some styling ideas were put forward resulting in some font colour changes and a different look to the gym classes descriptions view.
+My mentor also looked through it when I was part way through and advised me to change the font and also to compress the images so the site would load quicker.
+* Linking issue within the navbar corrected after testing.
+
+<img src="/assets/images/Lighthouse.png" alt="Images of performance from Lighthouse."/>
 
 ### Known Bugs
 On some mobile devices the videos of the Personal Trainers are seen as still images.
@@ -188,40 +195,34 @@ Alternatively tou can pull the code from the GitHub repository:
 5. Change the current working directory to the location where you want the cloned directory.
 6. Type git clone, and then paste the URL you copied earlier.
 7. Press Enter to create your local clone.
-
-
 ---
 
+## Credits
+
+### Code
+* Code learned through the Code Institute Full Stack Development course was used throughout the site.
+
+* Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+* Map code found on following help site - <a href="https://blog.duda.co/responsive-google-maps-for-your-website"></a>
+
+* Direct Twitter DM code found at - <a href="https://developer.twitter.com/en/docs/twitter-for-websites/direct-message-button"></a>
+
+* Deployment instructions used from GitHub help pages
+
+* README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
+
+### Content
+* All content was written by the developer.
+
+### Media
+* All Images credited in Links and Images section.
+
+### Acknowledgements
+* My Mentor for assistance and feedback.
+
+* Tutor support at Code Institute for their support.
 
 ---
-
-## Testing
-
-I got my wife to test the site as a 'new visitor'. Some styling ideas were put forward resulting in some font colour changes and a different look to the gym classes descriptions view.
-My mentor also looked through it when I was part way through and gave many tips and helpful input to make a neater site.
-
-<img src="/assets/images/Lighthouse.png" alt="Images of performance from Lighthouse."/>
-
-#### Lighthouse report check.
-
-
----
-
-## Links and Images
-
-Clock image - Image by <a href="https://pixabay.com/users/memed_nurrohmad-3307648/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Memed_Nurrohmad</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Pixabay</a>
-Map image - Image by <a href="https://pixabay.com/users/mmi9-1424200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">mmi9</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">Pixabay</a>
-About us image - Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3180368">mohamed Hassan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3180368">Pixabay</a>
-Hero image - Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867327">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1867327">Pixabay</a>
-Gym equipment image Image by <a href="https://pixabay.com/users/lewisgoodphotos-15859574/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5030966">Lewis Good</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5030966">Pixabay</a>
-Swimming pool image - Image by <a href="https://pixabay.com/users/janeb13-725943/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1185775">janeb13</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1185775">Pixabay</a>
-
-Gym instructer video 3 - Video by Gustavo Fring from Pexels <a href="https://www.pexels.com/video/a-group-of-pregnant-women-doing-prenatal-exercises-4110586/"></a>
-Gym instructer video 2 - Video by cottonbro from Pexels <a href="https://www.pexels.com/video/sport-child-training-boxer-4752967/"></a>
-Gym instructer video - Video by Mikhail Nilov from Pexels <a href="https://www.pexels.com/video/a-group-of-people-inside-the-fitness-gym-6740282/"></a>
-Gym Instructer 1 (PT1) - Image by <a href="https://pixabay.com/users/katetrysh-4218753/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1972698">Kate Trysh</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1972698">Pixabay</a>
-Gym Instructer 2 (PT2) - Image by <a href="https://pixabay.com/users/janeb13-725943/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1180062">janeb13</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1180062">Pixabay</a>
-Gym Instructer 3 (PT3) - Image by <a href="https://pixabay.com/users/matanvizel-5033181/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628919">Matan Ray Vizel</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2628919">Pixabay</a>
-Gym Instructer 4 (PT4) -Image by <a href="https://pixabay.com/users/publicdomainpictures-14/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=18884">PublicDomainPictures</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=18884">Pixabay</a>
 
 
