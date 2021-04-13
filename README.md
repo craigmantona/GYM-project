@@ -32,7 +32,7 @@ I have visited several gym sites in my life and I have tried to encourporate all
 
 * ### Design
     * Colour Scheme
-        * The two main colours used are tomato, and #343a40 a dark grey colour.
+        * The three main colours used are tomato, #343a40 a dark grey colour, and #f5f5f5 a white colour.
 
 * ### Typography
     * The Merriweather font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Merriweather is a clean and clear font, so it is both attractive and appropriate.
