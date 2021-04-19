@@ -11,7 +11,7 @@ This website has been made with an established gym in mind. I have tried to make
 I have visited several gym sites in my life and I have tried to encourporate all of the information that I considered to be vital. I have asked some friends and family for their input, and have added some extra features as a result of that interaction.
 
 
-<img src="/assets/images/Web-page-screenshot.png" alt="Images of site on different media screens."/>
+<img src="/assets/images/mock-up-of-site.png" alt="Images of site on different media screens."/>
 
 #### A view of how the site looks over different media.
 ---
