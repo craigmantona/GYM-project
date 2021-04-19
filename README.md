@@ -20,9 +20,9 @@ I have visited several gym sites in my life and I have tried to encourporate all
 - [UX](#ux)
     - [Website owner business goals](#website-owner-business-goals)
     - [User goals](#user-goals)
+        - [Website owner business goals](#website-owner-business-goals)
         - [New user goals](#new-user-goals)
         - [Returning user goals](#returning-user-goals)
-        - [Website owner business goals](#website-owner-business-goals)
     - [User stories](#user-stories)
     - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
@@ -30,12 +30,13 @@ I have visited several gym sites in my life and I have tried to encourporate all
 - [Features](#features)
 - [Technology](#technology)
 - [Testing](#testing)
+    - [Code Validation](#code-validation)
     - [Functionality testing](#functionality-testing)
     - [Compatibility testing](#compatibility-testing)
-    - [Code Validation](#code-validation)
     - [User stories testing](#user-stories-testing)
     - [Issues found during site development](#issues-found-during-site-development)
     - [Performance testing](#performance-testing)
+    - [Known bugs](#known-bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Screenshots](#screenshots)
@@ -43,13 +44,14 @@ I have visited several gym sites in my life and I have tried to encourporate all
 ---
 ## UX
 
+
+## User goals
+
 ## Website owner business goals
 
 The main reason to create this website is to help showcase what GYM has to offer to the public.
 GYM owner can present the offers, membership, opening times, location, and contact details of GYM.
 Also this website is the best place to show types of fitness classes, personal training and equipment.
-
-## User goals
 
 ### New user goals
 * User is able to understand the main purpose of the site and learn more about the GYM.
@@ -108,10 +110,9 @@ I used the site Balsamiq to create the wireframes for the site.
 
 ### Colors
 Main colours used in a project:
-* background color: #ccddff
-* font color: #6217ee
-* link color: #ff6600
-* hover color: #ff9000
+* background color: whitesmoke
+* font color: #212529, tomato, and f5f5f5
+
 
 ### Fonts 
 
@@ -128,6 +129,9 @@ ___
 # Features
 
 The website consists of four pages. All are accessible from a navigation menu.
+
+* Responsive on all device sizes
+* Interactive elements
 
 The website has below features:
 
@@ -212,7 +216,7 @@ Each link will open in a separate tab in a browser.
 
 [Back to Table of contents](#table-of-contents)
 ___
-# Technologies used
+# Technology
 
 ### Languages Used
 * HTML5
@@ -247,6 +251,7 @@ ___
 ___
 # Testing
 
+## Code validation
 The Webformatter.com Markup Validator were used to validate every page of the project to ensure there were no syntax errors in the project for both HTML and CSS.
 
 * [HTML & CSS code checked through HTML/CSS Formatter](https://webformatter.com/html) No issues found
@@ -321,23 +326,62 @@ My mentor also looked through it when I was part way through and advised me to c
 
 ## Performance testing
 
-I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
-I had to do couple of changes to improve performance. Screenshots are presented below:
+I ran [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
+Screenshots are presented below:
 
-![bug_performance1](testing/performance1.png)
-![bug_performance2](testing/performance2.png)
-
-Final results:
-![performance_final](testing/performance_final.png)
-I noticed that this tests scores vary from time to time and depends on external libraries as well. 
+<img src="/assets/images/lighthouse.png" alt="Images of performance from Lighthouse."/>
 
 
+### Known bugs
+On some mobile devices the videos of the Personal Trainers are seen as still images.
 
-* ### Design
-    * Colour Scheme
-        * The three main colours used are tomato, #343a40 a dark grey colour, and #f5f5f5 a white colour.
+---
 
-* ### Links and images
+# Deployment
+
+This project was made using GitHub and GitPod.
+
+How to deploy this page to GitHub pages from the repository:
+
+1. Log in to GitHub
+2. Select the repository craigmantona/GYM-project
+3. Under the repository name, click  Settings.
+4. Under "GitHub Pages", use the None or Branch drop-down menu and select a publishing source.
+5. Optionally, use the drop-down menu to select a folder for your publishing source.
+6. Click Save.
+
+Alternatively tou can pull the code from the GitHub repository:
+
+1. On GitHub, navigate to the main page of the repository.
+2. Above the list of files, click  Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the folder looking icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the folder looking icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the folder looking icon.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press Enter to create your local clone.
+
+[Back to Table of contents](#table-of-contents)
+___
+
+# Credits
+
+### Code
+* Code learned through the Code Institute Full Stack Development course was used throughout the site.
+
+* Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+* Map code found on following help site - <a href="https://blog.duda.co/responsive-google-maps-for-your-website"></a>
+
+* Direct Twitter DM code found at - <a href="https://developer.twitter.com/en/docs/twitter-for-websites/direct-message-button"></a>
+
+* Deployment instructions used from GitHub help pages
+
+* README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
+
+### Content
+* All content was written by the developer.
+
+### Links and images
 
     1. Clock image - Image by <a href="https://pixabay.com/users/memed_nurrohmad-3307648/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Memed_Nurrohmad</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2579300">Pixabay</a>
     2. Map image - Image by <a href="https://pixabay.com/users/mmi9-1424200/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">mmi9</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1272165">Pixabay</a>
@@ -361,135 +405,23 @@ I noticed that this tests scores vary from time to time and depends on external 
     17. README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
 
 
-
----
-
-## Features
-
-* Responsive on all device sizes
-* Interactive elements
-
----
-
-
----
-## Testing
-
-The Webformatter.com Markup Validator were used to validate every page of the project to ensure there were no syntax errors in the project for both HTML and CSS.
-
-* [HTML & CSS code checked through HTML/CSS Formatter](https://webformatter.com/html) No issues found
-
-### Testing User Stories from User Experience (UX) Section
-* First Time Visitor Goals
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the GYM.
-
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "New Prices" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the GYM.
-
-    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-    3. As a First Time Visitor, I want to know where the GYM is located and the opening times. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-
-        1. Once the new visitor has read the Opening Hours text and seen the Location map, they will notice What classes we have to offer and when.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-        4. The user can see all of the equipment that the GYM has to offer at the GYM.
-
-* Returning Visitor Goals
-    1. As a Returning Visitor, I want to find the new and existing classes that are on offer.
-
-        1. These are clearly shown in the Classes page.
-        2. They will also be able to see what equipment the GYM has to offer.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's telephone number.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook and Instagram link so that I can join and interact with others in the community.
-
-        1. The Facebook and Instagram pages can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-
-* Frequent User Goals
-    1. As a Frequent User, I want to check to see if there are any new Personal Trainers at the GYM.
-
-        1. The user would already be comfortable with the website layout and can easily navigate to the Team & Contact Us page.
-
-
-### Further Testing
-* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone8, iPad Pro & iPhone11.
-* Testing was done to ensure that all pages were linking correctly.
-* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-* I got my wife, brother and a friend to test the site as a 'new visitor'. Some styling ideas were put forward resulting in some font colour changes and a different look to the gym classes descriptions view.
-My mentor also looked through it when I was part way through and advised me to change the font and also to compress the images so the site would load quicker.
-* Linking issue within the navbar corrected after testing.
-
-<img src="/assets/images/Lighthouse.png" alt="Images of performance from Lighthouse."/>
-
-### Known Bugs
-On some mobile devices the videos of the Personal Trainers are seen as still images.
-
----
-
-
-## Deployment
-
-This project was made using GitHub and GitPod.
-
-How to deploy this page to GitHub pages from the repository:
-
-1. Log in to GitHub
-2. Select the repository craigmantona/GYM-project
-3. Under the repository name, click  Settings.
-4. Under "GitHub Pages", use the None or Branch drop-down menu and select a publishing source.
-5. Optionally, use the drop-down menu to select a folder for your publishing source.
-6. Click Save.
-
-Alternatively tou can pull the code from the GitHub repository:
-
-1. On GitHub, navigate to the main page of the repository.
-2. Above the list of files, click  Code.
-3. To clone the repository using HTTPS, under "Clone with HTTPS", click the folder looking icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the folder looking icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the folder looking icon.
-4. Open Terminal.
-5. Change the current working directory to the location where you want the cloned directory.
-6. Type git clone, and then paste the URL you copied earlier.
-7. Press Enter to create your local clone.
----
-
-## Credits
-
-### Code
-* Code learned through the Code Institute Full Stack Development course was used throughout the site.
-
-* Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
-* Map code found on following help site - <a href="https://blog.duda.co/responsive-google-maps-for-your-website"></a>
-
-* Direct Twitter DM code found at - <a href="https://developer.twitter.com/en/docs/twitter-for-websites/direct-message-button"></a>
-
-* Deployment instructions used from GitHub help pages
-
-* README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
-
-### Content
-* All content was written by the developer.
-
-### Media
-* All Images credited in Links and Images section.
-
 ### Acknowledgements
 * My Mentor for assistance and feedback.
 
 * Tutor support at Code Institute for their support.
 
----
+[Back to Table of contents](#table-of-contents)
+___
 
+# Screenshots
+
+## Project screenshots
+
+Home page on website <img src="/assets/images/Home-GYM.png" alt="Home page on website."/>
+
+Prices page on website <img src="/assets/images/Prices-GYM.png" alt="Prices page on website."/>
+
+Classes page on website <img src="/assets/images/Classes-GYM.png" alt="Classes page on website."/>
+
+Team & Contacts page on website <img src="/assets/images/Team-GYM.png" alt="Team and contacts page on website."/>
 
