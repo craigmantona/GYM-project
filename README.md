@@ -1,5 +1,9 @@
-# GYM - my first milestone project - a site showing all of the benefits and features of our gym.
-[Link to finished site](https://craigmantona.github.io/GYM-project/)
+# Craig's GYM website
+
+## User-Centric Frontend Development Milestone Project.
+
+GYM - my first milestone project - a site showing all of the benefits and features of our gym.
+## [Link to finished GYM site](https://craigmantona.github.io/GYM-project/)
 
 This is my GYM website that I have made by using the skills and code from the course so far (Love running, CV, Whiskey Drop to mention a few.)
 
@@ -11,31 +15,327 @@ I have visited several gym sites in my life and I have tried to encourporate all
 
 #### A view of how the site looks over different media.
 ---
+# Table of contents
 
-## User Experience (UX) 
+- [UX](#ux)
+    - [Website owner business goals](#website-owner-business-goals)
+    - [User goals](#user-goals)
+        - [New user goals](#new-user-goals)
+        - [Returning user goals](#returning-user-goals)
+        - [Website owner business goals](#website-owner-business-goals)
+    - [User stories](#user-stories)
+    - [Structure of the website](#structure-of-the-website)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
+- [Features](#features)
+- [Technology](#technology)
+- [Testing](#testing)
+    - [Functionality testing](#functionality-testing)
+    - [Compatibility testing](#compatibility-testing)
+    - [Code Validation](#code-validation)
+    - [User stories testing](#user-stories-testing)
+    - [Issues found during site development](#issues-found-during-site-development)
+    - [Performance testing](#performance-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screenshots](#screenshots)
 
-* ### User stories
-    * First Time Visitor Goals
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the GYM.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site.
-        3. As a First Time Visitor, I want to know where they are located and how to contact the GYM.
+---
+## UX
 
-    * Returning Visitor Goals
-        1. As a Returning Visitor, I want to see what classes are on offer.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the GYM with any questions I may have.
-        3. As a Returning Visitor, I want to find social media links.
+## Website owner business goals
 
-    * Frequent User Goals
-        1. As a Frequent User, I want to  see what different classes are on and when.
-        2. As a Frequent User, I want to check to see if there are any new personal trainers that I can use.
+The main reason to create this website is to help showcase what GYM has to offer to the public.
+GYM owner can present the offers, membership, opening times, location, and contact details of GYM.
+Also this website is the best place to show types of fitness classes, personal training and equipment.
+
+## User goals
+
+### New user goals
+* User is able to understand the main purpose of the site and learn more about the GYM.
+* User can easily navigate throughout the site.
+* Know where they are located and how to contact the GYM.
+
+### Returning user goals
+* User can see what classes are on offer and when.
+* User is able to find social media links.
+* User can send a message to the GYM using a contact form.
+
+## User stories
+
+### As a GYM owner
+* I would like to present my GYM and my offer on the website clearly to potential customers.
+* I would like potential customers to easily find out where we are located and what we have to offer.
+* I want my customers to be able to use my website intuitively and easily.
+* I would like to my customers to feel confident in getting all of the information required from the website.
+
+### As a new customer
+* I wish to find out the prices for the GYM and what equipment and classes are on offer.
+* I would like to easily contact the GYM with any questions I may have.
+* I would like to know how I can get to the GYM.
+
+### As a returning customer
+
+* I would like to know what classes are on offer and when.
+* I would like to know what personal trainers are at the GYM to further my fitness goals.
+* I would like to visit the GYM's social media sites to see how my fellow GYM members are getting on.
+
+## Structure of the website
+
+This website has been made with an established gym in mind. 
+I have tried to make a website that is easy to access, and that has similar visuals/colour themes throughout. 
+It should be fully accessible on a range of devices and simple to navigate for new GYM users and regular members.
+I have visited several gym sites in my life and I have tried to encourporate all of the information that I considered to be vital. 
+I have asked some friends and family for their input, and have added some extra features as a result of that interaction.
+
+## Wireframes
+
+I used the site Balsamiq to create the wireframes for the site.
+
+<img src="/assets/images/GYM-website-main-page.png" alt="Image of main page wireframe created before project started.">
+
+<img src="/assets/images/GYM-website-prices-page.png" alt="Image of main page wireframe created before project started.">
+
+<img src="/assets/images/GYM-website-classes-page.png" alt="Image of main page wireframe created before project started.">
+
+<img src="/assets/images/GYM-website-contact-page.png" alt="Image of main page wireframe created before project started.">
+
+<img src="/assets/images/GYM-wireframe-iPad.png" alt="Image of main page wireframe created before project started.">
+
+<img src="/assets/images/GYM-wireframe-iPhone.png" alt="Image of main page wireframe created before project started.">
+
+## Surface
+
+### Colors
+Main colours used in a project:
+* background color: #ccddff
+* font color: #6217ee
+* link color: #ff6600
+* hover color: #ff9000
+
+### Fonts 
+
+* The Merriweather font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Merriweather is a clean and clear font, so it is both attractive and appropriate.
+
+### Images
+
+* All images are credited in [credits](#credits) section.
+
+
+[Back to Table of contents](#table-of-contents)
+___
+
+# Features
+
+The website consists of four pages. All are accessible from a navigation menu.
+
+The website has below features:
+
+## Navigation bar
+
+* #### Navigation bar is visible on the top of each website page. 
+It is responsive and will adapt to mobile devices by a change into a burger menu.
+* Navigation scheme:
+
+    * On left side there is a logo. It can be used as navigation link to the main page.
+    * Then there are five links or burger menu. It contains:
+        * Prices
+        * Classes
+        * Team & Contact details
+        * Sign Up
+        * Login
+
+
+## Special offer banner
+
+There is a special offer banner on the Main page, Classes and Team & Contact Details page on larger devices that links to the Prices page.
+
+## Footer
+
+* Footer is consistent on all pages. 
+It has contact phone number on left side, location link in the center and social links on right side.
+Each link will open in a separate tab in a browser.
+
+## Home
+
+* ### Sign Up / Login 
+
+    * There is a large jumbotron section calling users to sign up or login to the GYM.
+
+* ### Opening hours
+
+    * This shows the opening times of the GYM.
+
+* ### Map
+
+    * This shows where the GYM is located. You can click on it to open up a new page on google maps to get directions to the GYM.
+
+* ### About us
+
+    * This gives you some information on the GYM and a brief guide as to what they offer.
+
+## Prices
+
+* ### Payment plans
+
+    * This is where the customer can see what different payment plans are on offer.
+
+## Classes
+
+* ### Classes
+
+    * There is a list of what classes are on offer at the GYM. 
+    * Each one when clicked will show a description of the class and when they are on.
+    * There is a link to call the GYM to book in for the classes.
+
+* ### Equipment
+
+    * This shows what equipment the GYM boasts.
+
+* ### Personal Training
+
+    * This describes how many personal trainers the GYM has and what they offer.
+
+## Team & Contact details
+
+* ### Contact us
+
+    * This is where there are links to email, call or direct message on Twitter to the GYM.
+
+* ### Enquiry form
+
+    * This is where you can send a message directly to the GYM.
+
+* ### The team
+
+    * This shows you images and videos (on larger devices) and a description of the gym instructers at GYM.
+
+[Back to Table of contents](#table-of-contents)
+___
+# Technologies used
+
+### Languages Used
+* HTML5
+* CSS
+
+### Frameworks, Libraries & Programs Used
+1. Bootstrap 4.4.1:
+    * Bootstrap was used to assist with the responsiveness and styling of the website.
+2. Hover.css:
+    * Hover.css was used on the Social Media in the footer and the buttons in all pages to add the float transition while being hovered over.
+3. Google Fonts:
+    * Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+4. Font Awesome:
+    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+5. jQuery:
+    * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+6. Git
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+7. GitHub:
+    * GitHub is used to store the projects code after being pushed from Git.
+8. Pixabay:
+    * Pixabay was used for the images on the website.
+9. Pexels:
+    * Pexels was used for the videos on the website.
+10. Balsamiq:
+    * Balsamiq was used to create the wireframes during the design process.
+11. Tinypng:
+    * Tinypng was used to reduce size of images.
+
+
+[Back to Table of contents](#table-of-contents)
+___
+# Testing
+
+The Webformatter.com Markup Validator were used to validate every page of the project to ensure there were no syntax errors in the project for both HTML and CSS.
+
+* [HTML & CSS code checked through HTML/CSS Formatter](https://webformatter.com/html) No issues found
+
+## Functionality testing 
+
+ I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+ 
+
+## Compatibility testing
+ Site was tested across several virtual mobile devices and browsers.
+ 
+ I tested on hardware devices such as: iPad pro, and iPhone11.
+
+
+## User stories testing
+
+### As a business owner:
+
+- I would like potential customers to be aware of the special offer currently on.
+    * There is a banner that is on the webpages that links to the new prices on offer at the GYM.
+
+- I would like to ensure that customers new and old are aware of the opening times for the GYM.
+    * There is  a clear and concise list of the opening hours on the main page of the site.
+
+- I want all customers to be able to learn how to use my website intuitively and easily.
+    * Each page has a fixed navigation menu and is accessible at all times. All content is clear and crisp.
+
+- I would like all customers to easily be able to contact the GYM with any queeries.
+    * There are social links and phone links at the footer of every page and there is a DM and enquiry for in the Contact page.
+
+
+### As a new customer:
+- User is able to understand the main purpose of the site and learn more about the GYM.
+    * User can see description on the home page. 
+
+- User can easily navigate throughout the site.
+    * Each page has a fixed navigation menu and is accessible at all times. All content is clear and crisp.
+
+- Know where they are located and how to contact the GYM.
+    * There are social links and phone links at the footer of every page and there is a DM and enquiry for in the Contact page.
+
+
+### As a returning customer:
+- User can see what classes are on offer and when.
+    * There is a list of classes available on the Classes page. Each one when clicked gives a description of the class and when it is on.
+
+- User is able to find social media links.
+    * Social links are available in the footer of every page.
+
+- User can send a message to the GYM using a contact form.
+    * There are a host of ways to get in touch with the site on the Team & Contact page, including an enquiry form.
+
+---
+## Issues found during site development
+
+* Original font used - Bebas Neue - was replaced as the all caps view seemed a bit aggresive throughout the site.
+
+* The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone8, iPad Pro & iPhone11.
+
+* Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+* I got my wife, brother and a friend to test the site as a 'new visitor'. Some styling ideas were put forward resulting in some font colour changes and a different look to the gym classes descriptions view.
+My mentor also looked through it when I was part way through and advised me to change the font and also to compress the images so the site would load quicker.
+
+* Linking issue within the navbar corrected after testing. Home gage icon was not set to link to Home page and was therefore linking to an error 404 page instead.
+
+* Images were only showing up on local site and not the website. Changed the linking to the images to rectify issue.
+
+
+## Performance testing
+
+I run [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool to check performance of the website.
+I had to do couple of changes to improve performance. Screenshots are presented below:
+
+![bug_performance1](testing/performance1.png)
+![bug_performance2](testing/performance2.png)
+
+Final results:
+![performance_final](testing/performance_final.png)
+I noticed that this tests scores vary from time to time and depends on external libraries as well. 
+
 
 
 * ### Design
     * Colour Scheme
         * The three main colours used are tomato, #343a40 a dark grey colour, and #f5f5f5 a white colour.
-
-* ### Typography
-    * The Merriweather font is the main font used throughout the whole website with Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Merriweather is a clean and clear font, so it is both attractive and appropriate.
 
 * ### Links and images
 
@@ -61,12 +361,7 @@ I have visited several gym sites in my life and I have tried to encourporate all
     17. README file template from Code Institute used as a guide. <a href="https://github.com/Code-Institute-Solutions/SampleREADME"></a>
 
 
-* ### Wireframes
-    * Wireframe images of webpage, iPad and iPhone
 
-    <img src="/assets/images/GYM-wireframe.png" alt="Image of wireframe created before project started.">
-
-#### Wireframe created before project started. Created on Balsamiq.
 ---
 
 ## Features
@@ -75,35 +370,7 @@ I have visited several gym sites in my life and I have tried to encourporate all
 * Interactive elements
 
 ---
-## Technologies Used
 
-### Languages Used
-* HTML5
-* CSS3
-
-### Frameworks, Libraries & Programs Used
-1. Bootstrap 4.4.1:
-    * Bootstrap was used to assist with the responsiveness and styling of the website.
-2. Hover.css:
-    * Hover.css was used on the Social Media in the footer and the buttons in all pages to add the float transition while being hovered over.
-3. Google Fonts:
-    * Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4. Font Awesome:
-    * Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5. jQuery:
-    * jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-6. Git
-    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7. GitHub:
-    * GitHub is used to store the projects code after being pushed from Git.
-8. Pixabay:
-    * Pixabay was used for the images on the website.
-9. Pexels:
-    * Pexels was used for the videos on the website.
-10. Balsamiq:
-    * Balsamiq was used to create the wireframes during the design process.
-11. Tinypng:
-    * Tinypng was used to reduce size of images.
 
 ---
 ## Testing
