@@ -9,17 +9,6 @@ body {
 
 .hero-container {
     height: 100%;
-
-    background: url('../images/boxing-ring.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     position: relative;
 
     width: 100%;
@@ -29,8 +18,8 @@ body {
 
 
 .hour-container {
-    background-color: #f5f5f5;
-    color: tomato;
+    /* background-color: #f5f5f5;
+    color: tomato; */
     border-color: tomato;
     padding: 20px;
 }
@@ -43,35 +32,33 @@ body {
 }
 
 .contact-container {
-    background-color: #343a40;
-    color: tomato;
+    /* background-color: #343a40;
+    color: tomato; */
     border-color: #f5f5f5;
     padding: 20px;
 }
 
 .contact-tweet-container {
-    background-color: #343a40;
-    color: #f5f5f5;
-    border-color: #f5f5f5;
+    color: tomato;
+    border-color: tomato;
     padding: 20px;
 }
 
 .contact-tel-container {
-    background-color: #343a40;
-    color: #f5f5f5;
+    color: tomato;
     border-color: tomato;
     padding: 20px;
 }
 
 .contact-email-container {
-    background-color: #343a40;
-    color: #f5f5f5;
+    color: tomato;
     border-color: tomato;
     padding: 20px;
 }
 
 .content-container {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .about-container {
@@ -104,7 +91,6 @@ body {
 
 .team-container {
     background-color: #f5f5f5;
-    color: tomato;
     border-color: #f5f5f5;
     padding: 20px;
     box-shadow: 4px 4px 5px 3px grey;
@@ -113,12 +99,10 @@ body {
 .classes-container {
     padding: 20px;
     background-color: #f5f5f5;
-    color: tomato;
-    border-color: tomato;
 }
 
 .classes-container a {
-    color: tomato;
+    color: #212529;
 }
 
 .classes-container a:hover {
@@ -378,7 +362,7 @@ a:hover {
 /* Contact tabs */
 
 .contact-tweet-container i {
-    color: #f5f5f5;
+    /* color: #f5f5f5; */
 }
 
 /* Modal */
@@ -402,6 +386,10 @@ a:hover {
     color: #343a40;
     border-color: tomato;
     margin-top: 20px;
+}
+
+.enquiry-box {
+    border: thin solid black;
 }
 
 .enquiry-form h2 {
