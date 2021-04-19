@@ -40,7 +40,6 @@ body {
     color: tomato;
     border-color: #f5f5f5;
     padding: 20px;
-    box-shadow: 4px 4px 5px 3px grey;
 }
 
 .contact-container {
@@ -72,20 +71,13 @@ body {
 }
 
 .content-container {
-    padding: 20px;
+    margin-top: 20px;
 }
 
 .about-container {
     background-color: #f5f5f5;
     color: whitesmoke;
     border-color: tomato;
-
-
-    background: url('../images/gym.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
     display: flex;
     align-items: center;
@@ -94,16 +86,8 @@ body {
     position: relative;
 }
 
-.about-container p {
-    color: #f5f5f5;
-    background-color: #343a40;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .about-container section {
-    background-color: rgb(51 50 49 / 90%);
+    color: rgb(51 50 49 / 90%);
 }
 
 .footer-container {
@@ -117,9 +101,6 @@ body {
     box-shadow: 4px 4px 5px 3px grey;
 }
 
-.abouts-container {
-    box-shadow: 4px 4px 5px 3px grey;
-}
 
 .team-container {
     background-color: #f5f5f5;
